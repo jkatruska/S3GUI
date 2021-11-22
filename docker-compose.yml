@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  gui:
+    build:
+      context: ./
+    volumes:
+      - ./:/go/src/app:rw;delegated
